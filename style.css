@@ -1,0 +1,51 @@
+html {
+  font-family: "Electrolize", sans-serif;
+  font-size: 15px;
+}
+
+.graybox {
+  background: rgb(179, 87, 87);
+  margin: 2em;
+  padding-left: 30%;
+  padding-right: 30%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+#main {
+  display: grid;
+  justify-items: center;
+}
+
+#title {
+  background: lightgray;
+  margin: 2em;
+  padding-left: 30%;
+  padding-right: 30%;
+  position: relative;
+  text-align: center;
+}
+
+#image {
+  display: block;
+  position: relative;
+  width: 50%;
+  max-width: 100%;
+  margin: auto;
+  padding: auto;
+}
+
+#img-caption {
+  text-align: center;
+}
+
+#tribute-info {
+  justify-self: left;
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+}
